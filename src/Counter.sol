@@ -11,4 +11,8 @@ contract Counter {
     function increment() public {
         number++;
     }
+
+    function checkNumber() public pure returns (uint256) {
+        return 7;
+    }
 }
